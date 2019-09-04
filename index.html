@@ -7,13 +7,11 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
   <title>Hello, world!</title>
 </head>
-<body>
+<body data-spy="sroll" data-target="#navScrollspy">
   <nav class="navbar navbar-dark navbar-expand-md bg-primary fixed-top">
-    <a href="#" class="navbar-brand">AmadouDev</a> 
-    <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="navbarNav" aria-controls="navbarNav" aria-expended="false" aria-label="toggle navigation" ></button>
-    <span class="navbar-toggler-icon"></span>
+    <a href="#" class="navbar-brand">AmadouDev</a> <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="navbarNav" aria-controls="navbarNav" aria-expended="false" aria-label="toggle navigation"></button> <span class="navbar-toggler-icon"></span>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav" id="navScrollspy">
         <li class="nav-item">
           <a href="#top" class="nav-link">Description</a>
         </li>
@@ -35,7 +33,22 @@
       </ul>
     </div>
   </nav><!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <section id="top" class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-1">AmadouDev</h1>
+      <p class="display-4">Welcome to my Bootstrap Review</p>
+      <p class="lead">Create stunnig photos ans videos by using the built-in features for enhancement</p>
+      <p class="lead">Share your best shots with your friends and the rest of the world instantly</p>
+      <p><strong>Download now on:</strong></p><a href="#" class="btn btn-lg btn-primary">App Store</a> <a href="#" class="btn btn-lg btn-primary">Google Play</a>
+    </div>
+  </section>
+  <div class="container">
+    <section id="description">
+      <h2 class="display-4">What is Cameo | Dev</h2>
+      <p>If you have an affinity for technology and love logical thinking, you might have considered a career in IT development. What is this type of a career like? What kind of education do you need to be employed in this field? Will you find the work enjoyable? Let’s take a closer look.</p>
+      <p>A career in information technology can take on many different forms. IT developers might create software programs or be involved in creating the digital infrastructure for a company. Many IT developers work as consultants and do projects for a variety of different organizations. In today’s information age, developers in any area of technology need to have an understanding of their market, and many developers specialize in a specific area. For example, developers are needed in</p>
+    </section>
+  </div><!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
